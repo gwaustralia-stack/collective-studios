@@ -1,214 +1,234 @@
 <!doctype html>
 <html lang="en-AU">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Collective Studios Australia — a national home for filmmakers, bringing production, film processing, post, colour, ADR, sound and camera rental together." />
-  <meta name="theme-color" content="#080808" />
-  <title>Collective Studios Australia — Where Australian Film Comes Together</title>
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Collective Studios Australia — a national film-making network bringing production, camera, film processing, post and sound under one creative roof.">
+  <meta name="theme-color" content="#0b0b0a">
+  <title>Collective Studios Australia — Make Films Here</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Inter:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=IBM+Plex+Sans+Condensed:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
-  <div class="grain" aria-hidden="true"></div>
-  <header class="site-header" id="top">
-    <a class="brand" href="#top" aria-label="Collective Studios home">
-      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
-      <span class="brand-text">COLLECTIVE<br>STUDIOS</span>
+  <div class="film-grain" aria-hidden="true"></div>
+
+  <header class="masthead">
+    <a class="wordmark" href="#top" aria-label="Collective Studios Australia home">
+      <span>COLLECTIVE</span><span>STUDIOS</span>
     </a>
-    <nav class="desktop-nav" aria-label="Primary navigation">
-      <a href="#why">Why Collective</a>
-      <a href="#capabilities">Capabilities</a>
-      <a href="#collective">The Collective</a>
+    <div class="masthead-meta">
+      <span>AUSTRALIA</span>
+      <span>EST. MELBOURNE</span>
+    </div>
+    <nav class="main-nav" aria-label="Primary">
+      <a href="#collective">Collective</a>
+      <a href="#workflow">Workflow</a>
       <a href="#locations">Locations</a>
+      <a href="#contact">Enquire</a>
     </nav>
-    <a class="pill pill-light" href="#contact">Bring us your film <span>↗</span></a>
-    <button class="menu-btn" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">MENU</button>
   </header>
 
-  <main>
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-visual" aria-hidden="true">
-        <div class="aperture aperture-a"></div>
-        <div class="aperture aperture-b"></div>
-        <div class="frame-line frame-line-a"></div>
-        <div class="frame-line frame-line-b"></div>
-        <div class="light-leak"></div>
-        <div class="hero-frame-label">CS / AUS / 001</div>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-index">CS / 001</div>
+      <div class="hero-title" aria-label="Make films here">
+        <span class="hero-line hero-line-a">MAKE</span>
+        <span class="hero-line hero-line-b">FILMS</span>
+        <span class="hero-line hero-line-c">HERE.</span>
       </div>
-      <div class="hero-kicker">AUSTRALIA'S INDEPENDENT SCREEN-PRODUCTION NETWORK</div>
-      <h1 id="hero-title">Where Australian<br><em>film comes together.</em></h1>
-      <div class="hero-bottom">
-        <p>One destination. A collective of exceptional specialists. From camera and 35mm film to picture post, ADR, immersive sound and final delivery.</p>
-        <div class="hero-actions">
-          <a class="pill pill-solid" href="#collective">Explore the collective <span>↓</span></a>
-          <a class="text-link" href="#locations">Melbourne flagship <span>↗</span></a>
-        </div>
+      <div class="hero-sidecopy">
+        <p>Camera. Production. 16/35mm. Picture. ADR. Sound. Delivery.</p>
+        <p>One serious address for filmmakers.</p>
       </div>
-      <div class="scroll-note"><span></span> SCROLL TO ENTER</div>
+      <div class="hero-location">MELBOURNE / AUSTRALIA</div>
+      <a class="hero-arrow" href="#intro" aria-label="Scroll to introduction">↓</a>
+      <div class="film-edge edge-left" aria-hidden="true"></div>
+      <div class="film-edge edge-right" aria-hidden="true"></div>
     </section>
 
-    <section class="ticker" aria-label="Collective Studios capabilities">
-      <div class="ticker-track">
-        <span>PRODUCTION</span><b>✦</b><span>CAMERA</span><b>✦</b><span>16MM / 35MM</span><b>✦</b><span>DAILIES</span><b>✦</b><span>COLOUR</span><b>✦</b><span>VFX</span><b>✦</b><span>ADR</span><b>✦</b><span>DOLBY ATMOS</span><b>✦</b><span>MASTERING</span><b>✦</b><span>DELIVERY</span><b>✦</b>
-        <span>PRODUCTION</span><b>✦</b><span>CAMERA</span><b>✦</b><span>16MM / 35MM</span><b>✦</b><span>DAILIES</span><b>✦</b><span>COLOUR</span><b>✦</b><span>VFX</span><b>✦</b><span>ADR</span><b>✦</b><span>DOLBY ATMOS</span><b>✦</b><span>MASTERING</span><b>✦</b><span>DELIVERY</span><b>✦</b>
+    <section class="running-strip" aria-hidden="true">
+      <div class="strip-track">
+        <span>CAMERA</span><i>•</i><span>PRODUCTION</span><i>•</i><span>16MM</span><i>•</i><span>35MM</span><i>•</i><span>DAILIES</span><i>•</i><span>COLOUR</span><i>•</i><span>ADR</span><i>•</i><span>DOLBY ATMOS</span><i>•</i><span>MASTERING</span><i>•</i><span>DELIVERY</span><i>•</i>
+        <span>CAMERA</span><i>•</i><span>PRODUCTION</span><i>•</i><span>16MM</span><i>•</i><span>35MM</span><i>•</i><span>DAILIES</span><i>•</i><span>COLOUR</span><i>•</i><span>ADR</span><i>•</i><span>DOLBY ATMOS</span><i>•</i><span>MASTERING</span><i>•</i><span>DELIVERY</span><i>•</i>
       </div>
     </section>
 
-    <section class="statement section-pad" id="why">
-      <div class="eyebrow">01 / THE IDEA</div>
-      <div class="statement-grid">
-        <h2>Make the film.<br>Not the logistics.</h2>
-        <div>
-          <p class="lead">Collective Studios brings an extraordinary concentration of film craft, technology and experienced people into one connected creative environment.</p>
-          <p>Our Melbourne flagship is home to independent production, film, picture and sound specialists — supported by a growing national network across Australia. Keep your team close, your workflow connected and your creative intent intact.</p>
-          <a class="line-link" href="#capabilities">See the complete workflow <span>→</span></a>
-        </div>
+    <section class="intro" id="intro">
+      <div class="section-number">01</div>
+      <div class="intro-copy">
+        <p class="kicker">A FILM CAMPUS, NOT A COWORKING SPACE.</p>
+        <h1>Everything gets better when the right people are <em>in the same room.</em></h1>
       </div>
-      <div class="stats-grid">
-        <article><strong>01</strong><span>connected<br>film ecosystem</span></article>
-        <article><strong>16 / 35</strong><span>motion-picture<br>film capability</span></article>
-        <article><strong>ATMOS</strong><span>world-class<br>sound post</span></article>
-        <article><strong>AUS</strong><span>national network<br>built to scale</span></article>
+      <div class="intro-note">
+        <p>Collective Studios is a national network built around the people who actually make films: cinematographers, producers, editors, colourists, film technicians, ADR engineers, sound mixers and finishing specialists.</p>
+        <p>Melbourne is the flagship. Byron Bay and the Gold Coast follow. The idea is simple: put exceptional craft under one roof and make the path from camera to screen radically easier.</p>
       </div>
     </section>
 
-    <section class="workflow" id="capabilities">
-      <div class="section-pad workflow-head">
-        <div class="eyebrow light">02 / CAMERA TO SCREEN</div>
-        <h2>A complete filmmaking<br><em>ecosystem.</em></h2>
+    <section class="feature-wall" id="workflow">
+      <div class="feature-visual">
+        <div class="leader leader-top">PICTURE START</div>
+        <div class="leader-count">8</div>
+        <div class="leader-circle"></div>
+        <div class="leader leader-bottom">COLLECTIVE STUDIOS / MEL / 001</div>
       </div>
-      <div class="workflow-rail">
-        <article class="step"><span>01</span><h3>Equip</h3><p>Camera, lenses, lighting, support and production equipment.</p><small>Creative Head Rentals</small></article>
-        <article class="step"><span>02</span><h3>Create</h3><p>Independent filmmakers, directors, producers and creative production.</p><small>Visible · Leaman · Who's Julian</small></article>
-        <article class="step"><span>03</span><h3>Process</h3><p>16mm and 35mm motion-picture film processing and high-resolution scanning.</p><small>Chroma Film Lab</small></article>
-        <article class="step"><span>04</span><h3>Finish</h3><p>Workflow, dailies, conform, colour, finishing, mastering and delivery.</p><small>Post Lab IO</small></article>
-        <article class="step featured"><span>05</span><h3>Hear</h3><p>ADR, dialogue, sound design, mixing and immersive Dolby Atmos.</p><small>RMS — a Collective Studios company</small></article>
-      </div>
-    </section>
-
-    <section class="collective section-pad" id="collective">
-      <div class="section-title-row">
-        <div><div class="eyebrow">03 / ON THE LOT</div><h2>The Collective.</h2></div>
-        <p>Independent specialists. One creative address. Explore the companies and capabilities that make Collective Studios a serious home for filmmakers.</p>
-      </div>
-
-      <div class="member-grid">
-        <a class="member member-rms" href="https://www.rms.studio/" target="_blank" rel="noopener">
-          <div class="member-no">01</div><div class="member-art sound-art"><span>ADR</span><span>ATMOS</span></div>
-          <div class="member-copy"><div class="owned">COLLECTIVE STUDIOS COMPANY</div><h3>RMS</h3><p>Award-winning sound post, ADR, dialogue, sound design and immersive mixing.</p><span class="visit">VISIT RMS.STUDIO ↗</span></div>
-        </a>
-        <a class="member" href="https://www.postlab.io/" target="_blank" rel="noopener">
-          <div class="member-no">02</div><div class="member-art scan-art"><span>4K</span><i></i><i></i><i></i></div>
-          <div class="member-copy"><h3>Post Lab IO</h3><p>End-to-end feature film post-production, from workflow and dailies through picture finishing and delivery.</p><span class="visit">VISIT POSTLAB.IO ↗</span></div>
-        </a>
-        <a class="member" href="https://www.chromafilmlab.com/" target="_blank" rel="noopener">
-          <div class="member-no">03</div><div class="member-art film-art"><div class="filmstrip"></div><b>35</b></div>
-          <div class="member-copy"><h3>Chroma Film Lab</h3><p>Motion-picture film processing and scanning for filmmakers shooting on 16mm and 35mm.</p><span class="visit">VISIT CHROMAFILMLAB.COM ↗</span></div>
-        </a>
-        <a class="member" href="https://creativeheadrentals.com.au/" target="_blank" rel="noopener">
-          <div class="member-no">04</div><div class="member-art camera-art"><div class="lens"></div><span>RENTAL</span></div>
-          <div class="member-copy"><h3>Creative Head Rentals</h3><p>Professional cameras, lenses, lighting, monitoring and support for productions of every scale.</p><span class="visit">VISIT CREATIVEHEADRENTALS.COM.AU ↗</span></div>
-        </a>
-        <a class="member" href="https://www.visiblestudios.com.au/" target="_blank" rel="noopener">
-          <div class="member-no">05</div><div class="member-art visible-art"><span>VISIBLE</span></div>
-          <div class="member-copy"><h3>Visible Studios</h3><p>Creative and narrative production with a portfolio spanning music, branded work and screen storytelling.</p><span class="visit">VISIT VISIBLESTUDIOS.COM.AU ↗</span></div>
-        </a>
-        <a class="member" href="https://leamanfilms.com/" target="_blank" rel="noopener">
-          <div class="member-no">06</div><div class="member-art leaman-art"><blockquote>“</blockquote><span>STORY</span></div>
-          <div class="member-copy"><h3>Leaman Films</h3><p>An independent Australian production company dedicated to the art and craft of filmmaking.</p><span class="visit">VISIT LEAMANFILMS.COM ↗</span></div>
-        </a>
-        <a class="member" href="https://whosjulianfilms.com.au/" target="_blank" rel="noopener">
-          <div class="member-no">07</div><div class="member-art julian-art"><span>WHO'S</span><strong>J?</strong></div>
-          <div class="member-copy"><h3>Who's Julian Films</h3><p>Independent film production and creative storytelling. Explore their latest work and collaborators.</p><span class="visit">VISIT WHOSJULIANFILMS.COM.AU ↗</span></div>
-        </a>
-        <div class="member member-you">
-          <div class="member-no">08</div><div class="member-art join-art"><span>+</span></div>
-          <div class="member-copy"><h3>Your production.</h3><p>Bring your next feature, series, documentary, commercial or independent project into the Collective.</p><a class="visit" href="#contact">START A CONVERSATION →</a></div>
-        </div>
+      <div class="feature-copy">
+        <div class="section-number light">02</div>
+        <p class="kicker light">FROM NEGATIVE TO FINAL MASTER.</p>
+        <h2>Keep the creative conversation alive from first frame to final mix.</h2>
+        <p>Equipment hire, production, motion-picture processing, scanning, dailies, edit workflows, colour, ADR, sound and delivery — connected by proximity instead of email chains.</p>
+        <a class="rule-link" href="#collective">MEET THE COLLECTIVE <span>→</span></a>
       </div>
     </section>
 
-    <section class="proof section-pad">
-      <div class="eyebrow light">04 / BUILT FOR SERIOUS FILMMAKING</div>
-      <div class="proof-grid">
-        <div class="proof-heading"><h2>Local craft.<br><em>Global standard.</em></h2></div>
-        <div class="proof-copy"><p>Our collective companies already work across feature film, television, documentary, commercial and music production — with workflows designed for cinema, streaming, festivals and international collaboration.</p></div>
+    <section class="collective" id="collective">
+      <div class="collective-head">
+        <div class="section-number">03</div>
+        <p class="kicker">THE PEOPLE ON THE LOT.</p>
+        <h2>Seven specialists.<br><em>One address.</em></h2>
+        <p class="collective-head-copy">Each company keeps its own identity and expertise. Collective Studios gives them a shared front door for filmmakers who want the whole pipeline close at hand.</p>
       </div>
-      <div class="proof-cards">
-        <div><span>PICTURE</span><strong>From dailies to DI.</strong><p>Connected picture workflows designed to preserve creative intent from camera through master.</p></div>
-        <div><span>SOUND</span><strong>Hear every detail.</strong><p>Purpose-built ADR and sound-post environments with immersive mixing capability.</p></div>
-        <div><span>FILM</span><strong>Keep film alive.</strong><p>Real motion-picture film capability for directors and cinematographers who choose the medium.</p></div>
+
+      <div class="directory" role="list">
+        <a class="directory-row" role="listitem" href="https://www.rms.studio/" target="_blank" rel="noopener" data-tone="sound">
+          <span class="dir-no">01</span>
+          <span class="dir-name">RMS</span>
+          <span class="dir-role">ADR / SOUND POST / DOLBY ATMOS</span>
+          <span class="dir-tag">COLLECTIVE STUDIOS COMPANY</span>
+          <span class="dir-arrow">↗</span>
+        </a>
+        <a class="directory-row" role="listitem" href="https://www.postlab.io/" target="_blank" rel="noopener" data-tone="post">
+          <span class="dir-no">02</span>
+          <span class="dir-name">Post Lab IO</span>
+          <span class="dir-role">FEATURE FILM POST / COLOUR / FINISHING / DELIVERY</span>
+          <span class="dir-tag"></span>
+          <span class="dir-arrow">↗</span>
+        </a>
+        <a class="directory-row" role="listitem" href="https://www.chromafilmlab.com/" target="_blank" rel="noopener" data-tone="film">
+          <span class="dir-no">03</span>
+          <span class="dir-name">Chroma Film Lab</span>
+          <span class="dir-role">16MM / 35MM PROCESSING + SCANNING</span>
+          <span class="dir-tag"></span>
+          <span class="dir-arrow">↗</span>
+        </a>
+        <a class="directory-row" role="listitem" href="https://creativeheadrentals.com.au/" target="_blank" rel="noopener" data-tone="camera">
+          <span class="dir-no">04</span>
+          <span class="dir-name">Creative Head Rentals</span>
+          <span class="dir-role">CAMERAS / LENSES / LIGHTING / SUPPORT</span>
+          <span class="dir-tag"></span>
+          <span class="dir-arrow">↗</span>
+        </a>
+        <a class="directory-row" role="listitem" href="https://www.visiblestudios.com.au/" target="_blank" rel="noopener" data-tone="production">
+          <span class="dir-no">05</span>
+          <span class="dir-name">Visible Studios</span>
+          <span class="dir-role">PRODUCTION / CREATIVE / SCREEN</span>
+          <span class="dir-tag"></span>
+          <span class="dir-arrow">↗</span>
+        </a>
+        <a class="directory-row" role="listitem" href="https://leamanfilms.com/" target="_blank" rel="noopener" data-tone="story">
+          <span class="dir-no">06</span>
+          <span class="dir-name">Leaman Films</span>
+          <span class="dir-role">FILM PRODUCTION / STORYTELLING</span>
+          <span class="dir-tag"></span>
+          <span class="dir-arrow">↗</span>
+        </a>
+        <a class="directory-row" role="listitem" href="https://whosjulianfilms.com.au/" target="_blank" rel="noopener" data-tone="director">
+          <span class="dir-no">07</span>
+          <span class="dir-name">Who's Julian Films</span>
+          <span class="dir-role">INDEPENDENT FILM PRODUCTION</span>
+          <span class="dir-tag"></span>
+          <span class="dir-arrow">↗</span>
+        </a>
       </div>
+
+      <div class="directory-footnote">External company links open in a new tab.</div>
     </section>
 
-    <section class="locations section-pad" id="locations">
-      <div class="section-title-row locations-title">
-        <div><div class="eyebrow">05 / THE NETWORK</div><h2>One collective.<br>More places.</h2></div>
-        <p>Melbourne is the flagship. The network is designed to grow with Australia's screen industry — connecting creative communities and production capability across the east coast and beyond.</p>
+    <section class="contact-sheet" aria-label="Collective Studios production workflow">
+      <div class="sheet-frame"><span>01</span><b>LOAD</b><small>CAMERA</small></div>
+      <div class="sheet-frame"><span>02</span><b>ROLL</b><small>PRODUCTION</small></div>
+      <div class="sheet-frame"><span>03</span><b>PROCESS</b><small>FILM LAB</small></div>
+      <div class="sheet-frame"><span>04</span><b>CUT</b><small>POST</small></div>
+      <div class="sheet-frame"><span>05</span><b>GRADE</b><small>PICTURE</small></div>
+      <div class="sheet-frame"><span>06</span><b>RECORD</b><small>ADR</small></div>
+      <div class="sheet-frame"><span>07</span><b>MIX</b><small>SOUND</small></div>
+      <div class="sheet-frame"><span>08</span><b>DELIVER</b><small>MASTER</small></div>
+    </section>
+
+    <section class="melbourne">
+      <div class="melbourne-label">MELBOURNE FLAGSHIP</div>
+      <div class="melbourne-code">MEL</div>
+      <div class="melbourne-copy">
+        <h2>The place where<br>the work <em>happens.</em></h2>
+        <p>A working film environment with professional camera rental, production companies, 16/35mm processing, feature-film post and premium ADR/sound capability already on site.</p>
+        <p class="micro">Exact facility imagery, address details, floor plans and booking information can be added once approved for public release.</p>
       </div>
-      <div class="location-grid">
-        <article class="location-card live-location">
-          <div class="location-status"><span></span> FLAGSHIP / LIVE</div>
-          <div class="location-code">MEL</div>
+      <div class="melbourne-stamp">FLAGSHIP / 01</div>
+    </section>
+
+    <section class="locations" id="locations">
+      <div class="locations-head">
+        <div class="section-number">04</div>
+        <p class="kicker">A NATIONAL NETWORK.</p>
+        <h2>Start in Melbourne.<br><em>Build across Australia.</em></h2>
+      </div>
+      <div class="location-list">
+        <article class="location active">
+          <span class="loc-no">01</span>
           <h3>Melbourne</h3>
-          <p>Brunswick East, Victoria</p>
-          <ul><li>Sound & ADR</li><li>Picture post</li><li>16mm / 35mm film</li><li>Production companies</li><li>Camera & lighting</li></ul>
-          <a href="#contact">ENQUIRE MELBOURNE ↗</a>
+          <span class="loc-status">OPEN / FLAGSHIP</span>
+          <p>Film, post, sound, camera and production specialists operating together.</p>
         </article>
-        <article class="location-card future-location">
-          <div class="location-status">NEXT / NORTHERN NSW</div>
-          <div class="location-code">BYR</div>
+        <article class="location">
+          <span class="loc-no">02</span>
           <h3>Byron Bay</h3>
-          <p>Northern New South Wales</p>
-          <div class="coming">COMING NEXT</div>
+          <span class="loc-status">NORTH NSW / PLANNED</span>
+          <p>A future northern hub connecting filmmakers, production and post.</p>
         </article>
-        <article class="location-card future-location">
-          <div class="location-status">NEXT / QUEENSLAND</div>
-          <div class="location-code">OOL</div>
+        <article class="location">
+          <span class="loc-no">03</span>
           <h3>Gold Coast</h3>
-          <p>Queensland</p>
-          <div class="coming">COMING NEXT</div>
+          <span class="loc-status">QUEENSLAND / PLANNED</span>
+          <p>Built to connect with one of Australia’s most active screen-production regions.</p>
         </article>
       </div>
     </section>
 
     <section class="manifesto">
-      <div class="manifesto-bg" aria-hidden="true"><span>24</span></div>
-      <div class="manifesto-copy">
-        <div class="eyebrow light">06 / THE DIFFERENCE</div>
-        <h2>Great films happen<br>when the right people<br><em>are in the room.</em></h2>
-        <p>Collective Studios is built around proximity: talented people, specialist rooms, trusted equipment and the conversations that solve problems before they become expensive.</p>
-        <a class="pill pill-solid invert" href="#contact">Make your next film here <span>↗</span></a>
-      </div>
+      <div class="manifesto-small">WHY COLLECTIVE</div>
+      <p>Film is collaborative by nature.</p>
+      <p class="manifesto-serif">The building should be too.</p>
     </section>
 
-    <section class="contact section-pad" id="contact">
-      <div class="contact-intro">
-        <div class="eyebrow">07 / START HERE</div>
-        <h2>Bring us<br><em>your film.</em></h2>
-        <p>Tell us what you're making and where you are in the process. We’ll help connect you with the right people, rooms and services across the Collective.</p>
+    <section class="contact" id="contact">
+      <div class="contact-head">
+        <div class="section-number">05</div>
+        <p class="kicker">BRING US THE PROJECT.</p>
+        <h2>What are you<br><em>making?</em></h2>
       </div>
       <form class="contact-form" action="mailto:hello@collectivestudios.com.au" method="post" enctype="text/plain">
         <label><span>NAME</span><input type="text" name="name" placeholder="Your name" required></label>
         <label><span>EMAIL</span><input type="email" name="email" placeholder="you@production.com" required></label>
-        <label><span>PROJECT</span><select name="project"><option>Feature film</option><option>Television / episodic</option><option>Documentary</option><option>Commercial / branded</option><option>Music / short form</option><option>Other</option></select></label>
-        <label class="full"><span>WHAT DO YOU NEED?</span><textarea name="message" rows="4" placeholder="Tell us about the project, dates and services you’re looking for..."></textarea></label>
-        <button class="pill pill-dark" type="submit">Send project enquiry <span>↗</span></button>
+        <label><span>PROJECT</span><input type="text" name="project" placeholder="Feature, series, documentary, commercial…"></label>
+        <label><span>WHAT DO YOU NEED?</span><input type="text" name="services" placeholder="Camera, lab, post, ADR, sound…"></label>
+        <label class="full"><span>DETAILS</span><textarea name="details" rows="4" placeholder="Tell us where the project is at and what would help."></textarea></label>
+        <button type="submit">START THE CONVERSATION <span>→</span></button>
       </form>
     </section>
   </main>
 
   <footer>
-    <div class="footer-brand"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><strong>COLLECTIVE<br>STUDIOS</strong></div>
-    <div class="footer-col"><span>LOCATIONS</span><a href="#locations">Melbourne</a><a href="#locations">Byron Bay — coming</a><a href="#locations">Gold Coast — coming</a></div>
-    <div class="footer-col"><span>EXPLORE</span><a href="#why">Why Collective</a><a href="#capabilities">Capabilities</a><a href="#collective">The Collective</a><a href="#contact">Enquire</a></div>
-    <div class="footer-col"><span>FOLLOW</span><a href="#">Instagram ↗</a><a href="#">LinkedIn ↗</a><a href="#">Vimeo ↗</a></div>
-    <div class="footer-bottom"><span>© <span id="year"></span> Collective Studios Australia</span><span>WHERE AUSTRALIAN FILM COMES TOGETHER.</span><a href="#top">BACK TO TOP ↑</a></div>
+    <div class="footer-brand">COLLECTIVE<br>STUDIOS</div>
+    <div class="footer-block"><span>LOCATIONS</span><p>Melbourne<br>Byron Bay<br>Gold Coast</p></div>
+    <div class="footer-block"><span>NETWORK</span><p>Film<br>Picture<br>Sound<br>Production</p></div>
+    <div class="footer-block"><span>CONTACT</span><p><a href="mailto:hello@collectivestudios.com.au">hello@collectivestudios.com.au</a></p></div>
+    <div class="footer-bottom"><span>© 2026 COLLECTIVE STUDIOS AUSTRALIA</span><span>WHERE AUSTRALIAN FILM COMES TOGETHER.</span></div>
   </footer>
+
   <script src="assets/site.js"></script>
 </body>
 </html>
