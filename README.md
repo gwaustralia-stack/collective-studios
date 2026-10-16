@@ -1,19 +1,15 @@
-# Collective Studios Australia
+# Collective Studios Australia — Final Site
 
-Static website prototype for Collective Studios Australia.
+Static Vercel-ready website.
 
-## Deploy to Vercel
+## Deploy
+Upload the contents of this folder to the root of the existing GitHub repository. Vercel will redeploy automatically.
 
-1. Put these files in the root of the GitHub repository.
-2. In Vercel use Framework Preset: **Other**.
-3. Root Directory: `./`
-4. No build command or output directory is required.
-5. Deploy.
+## Important before public launch
+The homepage intentionally references image assets hosted by the official websites of RMS, Post Lab IO, Chroma Film Lab, Creative Head Rentals, Visible Studios, Leaman Films and Who's Julian? Films. For a production launch, obtain/confirm usage permission and replace hotlinked URLs with locally hosted approved high-resolution assets for performance, reliability and rights management.
 
-## Before public launch
-
-- Replace `hello@collectivestudios.com.au` if a different enquiry address is preferred.
-- Add final approved Melbourne facility photography, exact address and floor-plan/booking information.
-- Confirm public wording for Byron Bay and Gold Coast expansion.
-- Add final legal/privacy pages and analytics if required.
-- All tenant links currently point to the companies supplied by the owner.
+## Content to confirm
+- Final Collective Studios enquiry email / form endpoint
+- Final North NSW public address/name
+- Final Gold Coast timing and wording
+- Final social links
